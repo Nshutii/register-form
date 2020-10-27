@@ -1,0 +1,141 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+body{
+  font-family: 'Open Sans',sans-serif;
+  
+}
+
+.login-container{
+  margin-top: 2rem;
+   .header-container{
+     margin-bottom: 4rem;
+   display: flex;
+  justify-content: center;
+     .signin-header{
+     
+    border-bottom: 0.000001px solid #cad5d5;
+    width: 47rem;
+    .signin-title{
+    line-height: 1;
+      color: #333e48;
+      
+       width: 7rem;
+        border-bottom: 2px solid #fed700;
+        margin-right: 2rem;
+        margin-bottom: -0.1rem;
+        padding: 1rem  0rem;
+      h3{
+      font-size: 2.5rem;
+      font-weight: 500;
+
+        }
+  }
+  }
+  
+ }
+ 
+ .welcome-msg{
+   margin: 0 auto;
+   width: 47rem;
+   p{
+     font-size: 1.4rem;
+     &:last-child{
+       padding-top: 1rem;
+     }
+     span{
+      color:#fed700;
+    }
+   }
+ }
+
+ .signin-form{
+   margin: 0 auto;
+   width: 47rem;
+     margin-top: 2rem;
+      .email,.password{
+        label{
+          font-size: 1.4rem;
+          display: block;
+          font-weight: 600;
+
+          span{
+            color:#fed700;
+          }
+
+        }
+        input{
+          margin: 1rem 0rem;
+          width: 100%;
+          border-radius: 5rem;
+          border: 0.000001px solid #cad5d5;
+          color: #333e48;
+          font-size: 1.6rem;
+
+          
+          outline: none;
+          padding: 1rem 2rem;
+
+          &:focus{
+            font-size: 1.6rem;
+            border: 0.000001px solid #fed700;
+
+          }
+        }
+        
+      }
+      .login-footer{
+        display: flex;
+        justify-content: space-around;
+      }
+      .button{
+        margin-top: 2rem;
+        width: 47rem;
+        // text-align: center;
+
+        button{
+          color: #333e48;
+          font-size: 1.6rem;
+          font-weight: bold;
+          background: #fed700;
+          border: none;
+          padding: 1.1rem 3.2rem;
+          border-radius: 5rem;
+          transition: all 0.2s ease;
+          outline: none;
+
+          &:hover{
+            cursor: pointer;
+            background-color: #333e48;
+            color: #cad5d5;
+          }
+        }
+      }
+
+      .password-reset{
+        margin-top: 3.7rem;
+          width: 25rem;
+
+        a{
+          padding-top: 4rem;
+          width: 100%;
+          text-decoration: none;
+          color: #333e48;
+          font-size: 1.4rem;
+
+          &:hover{
+            text-decoration: underline;
+          }
+
+          
+        }
+      }
+ }
+}

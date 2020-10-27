@@ -1,0 +1,161 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+body{
+  font-family: 'Open Sans',sans-serif;
+  
+}
+
+.register-container{
+  
+  margin-top: 2rem;
+  
+   
+ .header-container{
+   display: flex;
+  justify-content: center;
+     .register-header{
+     
+    border-bottom: 0.000001px solid #cad5d5;
+    width: 47rem;
+    .register-title{
+    line-height: 1;
+      color: #333e48;
+      
+       width: 11rem;
+        border-bottom: 2px solid #fed700;
+        margin-right: 2rem;
+        margin-bottom: -0.1rem;
+        padding: 1rem  0rem;
+      h3{
+      font-size: 2.5rem;
+      font-weight: 500;
+
+        }
+  }
+  }
+  
+ }
+
+ .register-info{
+    
+    .register-details{
+      width: 47rem;
+      margin: 0 auto;
+      p{
+    width: 47rem;
+      padding-top: 2rem;
+    font-size: 1.5rem;
+
+    span{
+      color:#fed700;
+    }
+    
+    }
+    
+    }
+    .register-form{
+      margin: 0 auto;
+      width: 47rem;
+      margin-top: 2rem;
+      .fullName,.email,.password,.confirm-password{
+        label{
+          font-size: 1.4rem;
+          display: block;
+          font-weight: 600;
+
+          span{
+            color:#fed700;
+          }
+
+        }
+        input{
+          margin: 1rem 0rem;
+          width: 100%;
+          border-radius: 5rem;
+          border: 0.000001px solid #cad5d5;
+          color: #333e48;
+          font-size: 1.6rem;
+
+          
+          outline: none;
+          padding: 1rem 2rem;
+
+          &:focus{
+            font-size: 1.6rem;
+            border: 0.000001px solid #fed700;
+
+          }
+        }
+        
+      }
+
+      .privacy-policy{
+        p{
+          margin-top: 2.4rem;
+          font-size: 1.4rem;
+          color: #333e48;
+
+          a{
+            text-decoration: none;
+            color: #fed700;
+          }
+        }
+      }
+      .button{
+        margin-top: 2rem;
+        width: 47rem;
+        text-align: center;
+
+        button{
+          color: #333e48;
+          font-size: 1.6rem;
+          font-weight: bold;
+          background: #fed700;
+          border: none;
+          padding: 1.1rem 3.2rem;
+          border-radius: 5rem;
+          transition: all 0.2s ease;
+          outline: none;
+
+          &:hover{
+            cursor: pointer;
+            background-color: #333e48;
+            color: #cad5d5;
+          }
+        }
+      }
+
+      .more-info{
+        margin: 2.4rem 0rem;
+        p{
+          font-size: 1.4rem;
+
+          &:first-child{
+            font-size: 1.8rem;
+            margin-bottom: 1.6rem;
+          }
+        }
+
+        ul{
+          list-style: none;
+          font-size: 1.4rem;
+          li{
+            padding-bottom: 1rem;
+            i{
+              color: #fed700;
+              padding-right: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

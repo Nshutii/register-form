@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin-top: 2rem;
+}
+.container .header-container {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.container .header-container .signin-header {
+  border-bottom: 0.000001px solid #cad5d5;
+  width: 47rem;
+}
+.container .header-container .signin-header .signin-title {
+  line-height: 1;
+  color: #333e48;
+  width: 7rem;
+  border-bottom: 2px solid #fed700;
+  margin-right: 2rem;
+  margin-bottom: -0.1rem;
+  padding: 1rem 0rem;
+}
+.container .header-container .signin-header .signin-title h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.container .welcome-msg {
+  margin: 0 auto;
+  width: 47rem;
+}
+.container .welcome-msg p {
+  font-size: 1.4rem;
+}
+.container .welcome-msg p:last-child {
+  padding-top: 1rem;
+}
+.container .welcome-msg p span {
+  color: #fed700;
+}
+.container .signin-form {
+  margin: 0 auto;
+  width: 47rem;
+  margin-top: 2rem;
+}
+.container .signin-form .email label, .container .signin-form .password label {
+  font-size: 1.4rem;
+  display: block;
+  font-weight: 600;
+}
+.container .signin-form .email label span, .container .signin-form .password label span {
+  color: #fed700;
+}
+.container .signin-form .email input, .container .signin-form .password input {
+  margin: 1rem 0rem;
+  width: 100%;
+  border-radius: 5rem;
+  border: 0.000001px solid #cad5d5;
+  color: #333e48;
+  font-size: 1.6rem;
+  outline: none;
+  padding: 1rem 2rem;
+}
+.container .signin-form .email input:focus, .container .signin-form .password input:focus {
+  font-size: 1.6rem;
+  border: 0.000001px solid #fed700;
+}
+.container .signin-form .login-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.container .signin-form .button {
+  margin-top: 2rem;
+  width: 47rem;
+}
+.container .signin-form .button button {
+  color: #333e48;
+  font-size: 1.6rem;
+  font-weight: bold;
+  background: #fed700;
+  border: none;
+  padding: 1.1rem 3.2rem;
+  border-radius: 5rem;
+  transition: all 0.2s ease;
+  outline: none;
+}
+.container .signin-form .button button:hover {
+  cursor: pointer;
+  background-color: #333e48;
+  color: #cad5d5;
+}
+.container .signin-form .password-reset {
+  margin-top: 3.7rem;
+  width: 25rem;
+}
+.container .signin-form .password-reset a {
+  padding-top: 4rem;
+  width: 100%;
+  text-decoration: none;
+  color: #333e48;
+  font-size: 1.4rem;
+}
+.container .signin-form .password-reset a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=signin.css.map */

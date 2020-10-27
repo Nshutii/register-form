@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin-top: 2rem;
+}
+.container .header-container {
+  display: flex;
+  justify-content: center;
+}
+.container .header-container .register-header {
+  border-bottom: 0.000001px solid #cad5d5;
+  width: 47rem;
+}
+.container .header-container .register-header .register-title {
+  line-height: 1;
+  color: #333e48;
+  width: 11rem;
+  border-bottom: 2px solid #fed700;
+  margin-right: 2rem;
+  margin-bottom: -0.1rem;
+  padding: 1rem 0rem;
+}
+.container .header-container .register-header .register-title h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.container .register-info .register-details {
+  width: 47rem;
+  margin: 0 auto;
+}
+.container .register-info .register-details p {
+  width: 47rem;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+.container .register-info .register-details p span {
+  color: #fed700;
+}
+.container .register-info .register-form {
+  margin: 0 auto;
+  width: 47rem;
+  margin-top: 2rem;
+}
+.container .register-info .register-form .fullName label, .container .register-info .register-form .email label, .container .register-info .register-form .password label, .container .register-info .register-form .confirm-password label {
+  font-size: 1.4rem;
+  display: block;
+  font-weight: 600;
+}
+.container .register-info .register-form .fullName label span, .container .register-info .register-form .email label span, .container .register-info .register-form .password label span, .container .register-info .register-form .confirm-password label span {
+  color: #fed700;
+}
+.container .register-info .register-form .fullName input, .container .register-info .register-form .email input, .container .register-info .register-form .password input, .container .register-info .register-form .confirm-password input {
+  margin: 1rem 0rem;
+  width: 100%;
+  border-radius: 5rem;
+  border: 0.000001px solid #cad5d5;
+  color: #333e48;
+  font-size: 1.6rem;
+  outline: none;
+  padding: 1rem 2rem;
+}
+.container .register-info .register-form .fullName input:focus, .container .register-info .register-form .email input:focus, .container .register-info .register-form .password input:focus, .container .register-info .register-form .confirm-password input:focus {
+  font-size: 1.6rem;
+  border: 0.000001px solid #fed700;
+}
+.container .register-info .register-form .privacy-policy p {
+  margin-top: 2.4rem;
+  font-size: 1.4rem;
+  color: #333e48;
+}
+.container .register-info .register-form .privacy-policy p a {
+  text-decoration: none;
+  color: #fed700;
+}
+.container .register-info .register-form .button {
+  margin-top: 2rem;
+  width: 47rem;
+  text-align: center;
+}
+.container .register-info .register-form .button button {
+  color: #333e48;
+  font-size: 1.6rem;
+  font-weight: bold;
+  background: #fed700;
+  border: none;
+  padding: 1.1rem 3.2rem;
+  border-radius: 5rem;
+  transition: all 0.2s ease;
+  outline: none;
+}
+.container .register-info .register-form .button button:hover {
+  cursor: pointer;
+  background-color: #333e48;
+  color: #cad5d5;
+}
+.container .register-info .register-form .more-info {
+  margin: 2.4rem 0rem;
+}
+.container .register-info .register-form .more-info p {
+  font-size: 1.4rem;
+}
+.container .register-info .register-form .more-info p:first-child {
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+.container .register-info .register-form .more-info ul {
+  list-style: none;
+  font-size: 1.4rem;
+}
+.container .register-info .register-form .more-info ul li {
+  padding-bottom: 1rem;
+}
+.container .register-info .register-form .more-info ul li i {
+  color: #fed700;
+  padding-right: 1rem;
+}
+
+/*# sourceMappingURL=register.css.map */
